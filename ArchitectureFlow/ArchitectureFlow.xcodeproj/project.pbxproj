@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAADF56F2003A267008F51D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF56E2003A267008F51D5 /* AppDelegate.m */; };
+		EAADF5722003A267008F51D5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5712003A267008F51D5 /* LoginViewController.m */; };
+		EAADF5752003A267008F51D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAADF5732003A267008F51D5 /* Main.storyboard */; };
+		EAADF5772003A267008F51D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAADF5762003A267008F51D5 /* Assets.xcassets */; };
+		EAADF57A2003A267008F51D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAADF5782003A267008F51D5 /* LaunchScreen.storyboard */; };
+		EAADF57D2003A267008F51D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF57C2003A267008F51D5 /* main.m */; };
+		EAADF5872003A267008F51D5 /* ArchitectureFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5862003A267008F51D5 /* ArchitectureFlowTests.m */; };
+		EAADF5932003A2AC008F51D5 /* LoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5922003A2AC008F51D5 /* LoginInteractor.m */; };
+		EAADF5942003A2AC008F51D5 /* LoginInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5922003A2AC008F51D5 /* LoginInteractor.m */; };
+		EAADF59B2003A2DF008F51D5 /* LoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF59A2003A2DF008F51D5 /* LoginRequestModel.m */; };
+		EAADF59C2003A2DF008F51D5 /* LoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF59A2003A2DF008F51D5 /* LoginRequestModel.m */; };
+		EAADF5A32003A30C008F51D5 /* LoginSuccessResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5A22003A30C008F51D5 /* LoginSuccessResponseModel.m */; };
+		EAADF5A42003A30C008F51D5 /* LoginSuccessResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5A22003A30C008F51D5 /* LoginSuccessResponseModel.m */; };
+		EAADF5A72003A341008F51D5 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5A62003A341008F51D5 /* Encryption.m */; };
+		EAADF5A82003A341008F51D5 /* Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5A62003A341008F51D5 /* Encryption.m */; };
+		EAADF5AF2003A506008F51D5 /* Promise.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5AE2003A506008F51D5 /* Promise.m */; };
+		EAADF5B02003A506008F51D5 /* Promise.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5AE2003A506008F51D5 /* Promise.m */; };
+		EAADF5BB2003AEC5008F51D5 /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5BA2003AEC5008F51D5 /* UserSession.m */; };
+		EAADF5BC2003AEC5008F51D5 /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5BA2003AEC5008F51D5 /* UserSession.m */; };
+		EAADF5BF2003AF98008F51D5 /* UserSessionLoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5BE2003AF98008F51D5 /* UserSessionLoginRequestModel.m */; };
+		EAADF5C02003AF98008F51D5 /* UserSessionLoginRequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5BE2003AF98008F51D5 /* UserSessionLoginRequestModel.m */; };
+		EAADF5C32003B078008F51D5 /* LoginRequestToUserSessionMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5C22003B078008F51D5 /* LoginRequestToUserSessionMapper.m */; };
+		EAADF5C42003B078008F51D5 /* LoginRequestToUserSessionMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5C22003B078008F51D5 /* LoginRequestToUserSessionMapper.m */; };
+		EAADF5CB2003B9B6008F51D5 /* ProxyUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5CA2003B9B6008F51D5 /* ProxyUserSessionRepository.m */; };
+		EAADF5CC2003B9B6008F51D5 /* ProxyUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5CA2003B9B6008F51D5 /* ProxyUserSessionRepository.m */; };
+		EAADF5CF2003B9D5008F51D5 /* LocalUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5CE2003B9D5008F51D5 /* LocalUserSessionRepository.m */; };
+		EAADF5D02003B9D5008F51D5 /* LocalUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5CE2003B9D5008F51D5 /* LocalUserSessionRepository.m */; };
+		EAADF5D32003B9E3008F51D5 /* RemoteUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5D22003B9E3008F51D5 /* RemoteUserSessionRepository.m */; };
+		EAADF5D42003B9E3008F51D5 /* RemoteUserSessionRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5D22003B9E3008F51D5 /* RemoteUserSessionRepository.m */; };
+		EAADF5DF2003C37A008F51D5 /* RemoteUserSessionMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5DE2003C37A008F51D5 /* RemoteUserSessionMapper.m */; };
+		EAADF5E02003C37A008F51D5 /* RemoteUserSessionMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5DE2003C37A008F51D5 /* RemoteUserSessionMapper.m */; };
+		EAADF5E32003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5E22003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m */; };
+		EAADF5E42003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5E22003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m */; };
+		EAADF5E72003C840008F51D5 /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5E62003C840008F51D5 /* LoginPresenter.m */; };
+		EAADF5E82003C840008F51D5 /* LoginPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = EAADF5E62003C840008F51D5 /* LoginPresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAADF5832003A267008F51D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAADF5622003A267008F51D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAADF5692003A267008F51D5;
+			remoteInfo = ArchitectureFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAADF56A2003A267008F51D5 /* ArchitectureFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAADF56D2003A267008F51D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAADF56E2003A267008F51D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAADF5702003A267008F51D5 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EAADF5712003A267008F51D5 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EAADF5742003A267008F51D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAADF5762003A267008F51D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAADF5792003A267008F51D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAADF57B2003A267008F51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAADF57C2003A267008F51D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAADF5822003A267008F51D5 /* ArchitectureFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAADF5862003A267008F51D5 /* ArchitectureFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectureFlowTests.m; sourceTree = "<group>"; };
+		EAADF5882003A267008F51D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAADF5912003A2AC008F51D5 /* LoginInteractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginInteractor.h; sourceTree = "<group>"; };
+		EAADF5922003A2AC008F51D5 /* LoginInteractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginInteractor.m; sourceTree = "<group>"; };
+		EAADF5952003A2C6008F51D5 /* Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		EAADF5992003A2DF008F51D5 /* LoginRequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRequestModel.h; sourceTree = "<group>"; };
+		EAADF59A2003A2DF008F51D5 /* LoginRequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRequestModel.m; sourceTree = "<group>"; };
+		EAADF59D2003A2F2008F51D5 /* LoginOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginOutput.h; sourceTree = "<group>"; };
+		EAADF5A12003A30C008F51D5 /* LoginSuccessResponseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginSuccessResponseModel.h; sourceTree = "<group>"; };
+		EAADF5A22003A30C008F51D5 /* LoginSuccessResponseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSuccessResponseModel.m; sourceTree = "<group>"; };
+		EAADF5A52003A341008F51D5 /* Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption.h; sourceTree = "<group>"; };
+		EAADF5A62003A341008F51D5 /* Encryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Encryption.m; sourceTree = "<group>"; };
+		EAADF5A92003A35B008F51D5 /* EncryptionGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionGateway.h; sourceTree = "<group>"; };
+		EAADF5AD2003A506008F51D5 /* Promise.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Promise.h; sourceTree = "<group>"; };
+		EAADF5AE2003A506008F51D5 /* Promise.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Promise.m; sourceTree = "<group>"; };
+		EAADF5B52003AEAB008F51D5 /* UserSessionGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSessionGateway.h; sourceTree = "<group>"; };
+		EAADF5B92003AEC5008F51D5 /* UserSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSession.h; sourceTree = "<group>"; };
+		EAADF5BA2003AEC5008F51D5 /* UserSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSession.m; sourceTree = "<group>"; };
+		EAADF5BD2003AF98008F51D5 /* UserSessionLoginRequestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSessionLoginRequestModel.h; sourceTree = "<group>"; };
+		EAADF5BE2003AF98008F51D5 /* UserSessionLoginRequestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSessionLoginRequestModel.m; sourceTree = "<group>"; };
+		EAADF5C12003B078008F51D5 /* LoginRequestToUserSessionMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginRequestToUserSessionMapper.h; sourceTree = "<group>"; };
+		EAADF5C22003B078008F51D5 /* LoginRequestToUserSessionMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRequestToUserSessionMapper.m; sourceTree = "<group>"; };
+		EAADF5C52003B808008F51D5 /* TrackingGateway.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackingGateway.h; sourceTree = "<group>"; };
+		EAADF5C92003B9B6008F51D5 /* ProxyUserSessionRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyUserSessionRepository.h; sourceTree = "<group>"; };
+		EAADF5CA2003B9B6008F51D5 /* ProxyUserSessionRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyUserSessionRepository.m; sourceTree = "<group>"; };
+		EAADF5CD2003B9D5008F51D5 /* LocalUserSessionRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalUserSessionRepository.h; sourceTree = "<group>"; };
+		EAADF5CE2003B9D5008F51D5 /* LocalUserSessionRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalUserSessionRepository.m; sourceTree = "<group>"; };
+		EAADF5D12003B9E3008F51D5 /* RemoteUserSessionRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteUserSessionRepository.h; sourceTree = "<group>"; };
+		EAADF5D22003B9E3008F51D5 /* RemoteUserSessionRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteUserSessionRepository.m; sourceTree = "<group>"; };
+		EAADF5D52003C0CB008F51D5 /* RemoteUserSessionService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteUserSessionService.h; sourceTree = "<group>"; };
+		EAADF5DD2003C37A008F51D5 /* RemoteUserSessionMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteUserSessionMapper.h; sourceTree = "<group>"; };
+		EAADF5DE2003C37A008F51D5 /* RemoteUserSessionMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteUserSessionMapper.m; sourceTree = "<group>"; };
+		EAADF5E12003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSessionLoginRequestToNSURLRequestMapper.h; sourceTree = "<group>"; };
+		EAADF5E22003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSessionLoginRequestToNSURLRequestMapper.m; sourceTree = "<group>"; };
+		EAADF5E52003C840008F51D5 /* LoginPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPresenter.h; sourceTree = "<group>"; };
+		EAADF5E62003C840008F51D5 /* LoginPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPresenter.m; sourceTree = "<group>"; };
+		EAADF5E92003CAE1008F51D5 /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		EAADF5ED2003CB60008F51D5 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAADF5672003A267008F51D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADF57F2003A267008F51D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA98A64D200D0FA40058639F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A655200D10240058639F /* Gateway */,
+				EA98A650200D0FC80058639F /* Entity */,
+				EA98A64F200D0FBD0058639F /* UseCase */,
+				EA98A64E200D0FB00058639F /* Presentation */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EA98A64E200D0FB00058639F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5E52003C840008F51D5 /* LoginPresenter.h */,
+				EAADF5E92003CAE1008F51D5 /* LoginView.h */,
+				EAADF5E62003C840008F51D5 /* LoginPresenter.m */,
+				EA98A654200D10150058639F /* Model */,
+				EA98A651200D0FD70058639F /* UI */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EA98A64F200D0FBD0058639F /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5952003A2C6008F51D5 /* Login.h */,
+				EAADF59D2003A2F2008F51D5 /* LoginOutput.h */,
+				EAADF5912003A2AC008F51D5 /* LoginInteractor.h */,
+				EAADF5922003A2AC008F51D5 /* LoginInteractor.m */,
+				EA98A653200D100B0058639F /* Model */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		EA98A650200D0FC80058639F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EA98A651200D0FD70058639F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5702003A267008F51D5 /* LoginViewController.h */,
+				EAADF5712003A267008F51D5 /* LoginViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EA98A653200D100B0058639F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5992003A2DF008F51D5 /* LoginRequestModel.h */,
+				EAADF59A2003A2DF008F51D5 /* LoginRequestModel.m */,
+				EAADF5A12003A30C008F51D5 /* LoginSuccessResponseModel.h */,
+				EAADF5A22003A30C008F51D5 /* LoginSuccessResponseModel.m */,
+				EAADF5BD2003AF98008F51D5 /* UserSessionLoginRequestModel.h */,
+				EAADF5BE2003AF98008F51D5 /* UserSessionLoginRequestModel.m */,
+				EAADF5C22003B078008F51D5 /* LoginRequestToUserSessionMapper.m */,
+				EAADF5C12003B078008F51D5 /* LoginRequestToUserSessionMapper.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA98A654200D10150058639F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5ED2003CB60008F51D5 /* LoginViewModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA98A655200D10240058639F /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EA98A656200D10940058639F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A657200D109E0058639F /* Encryption */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		EA98A657200D109E0058639F /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A659200D10B30058639F /* Gateway */,
+				EA98A658200D10A40058639F /* Entity */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		EA98A658200D10A40058639F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5A52003A341008F51D5 /* Encryption.h */,
+				EAADF5A62003A341008F51D5 /* Encryption.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EA98A659200D10B30058639F /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5A92003A35B008F51D5 /* EncryptionGateway.h */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EA98A65A200D10C80058639F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A65B200D10D20058639F /* Promise */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EA98A65B200D10D20058639F /* Promise */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5AD2003A506008F51D5 /* Promise.h */,
+				EAADF5AE2003A506008F51D5 /* Promise.m */,
+			);
+			path = Promise;
+			sourceTree = "<group>";
+		};
+		EA98A65C200D10EF0058639F /* UserSession */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A663200D119E0058639F /* Network */,
+				EA98A65E200D10FF0058639F /* Entity */,
+				EA98A65D200D10F90058639F /* Gateway */,
+			);
+			path = UserSession;
+			sourceTree = "<group>";
+		};
+		EA98A65D200D10F90058639F /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A662200D11860058639F /* Local */,
+				EA98A661200D11820058639F /* Remote */,
+				EAADF5C92003B9B6008F51D5 /* ProxyUserSessionRepository.h */,
+				EAADF5CA2003B9B6008F51D5 /* ProxyUserSessionRepository.m */,
+				EAADF5B52003AEAB008F51D5 /* UserSessionGateway.h */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EA98A65E200D10FF0058639F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5B92003AEC5008F51D5 /* UserSession.h */,
+				EAADF5BA2003AEC5008F51D5 /* UserSession.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EA98A65F200D11510058639F /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A660200D115A0058639F /* Gateway */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		EA98A660200D115A0058639F /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5C52003B808008F51D5 /* TrackingGateway.h */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		EA98A661200D11820058639F /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A664200D11B10058639F /* Model */,
+				EAADF5D12003B9E3008F51D5 /* RemoteUserSessionRepository.h */,
+				EAADF5D22003B9E3008F51D5 /* RemoteUserSessionRepository.m */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		EA98A662200D11860058639F /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5CD2003B9D5008F51D5 /* LocalUserSessionRepository.h */,
+				EAADF5CE2003B9D5008F51D5 /* LocalUserSessionRepository.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		EA98A663200D119E0058639F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5D52003C0CB008F51D5 /* RemoteUserSessionService.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EA98A664200D11B10058639F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5DD2003C37A008F51D5 /* RemoteUserSessionMapper.h */,
+				EAADF5DE2003C37A008F51D5 /* RemoteUserSessionMapper.m */,
+				EAADF5E12003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.h */,
+				EAADF5E22003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAADF5612003A267008F51D5 = {
+			isa = PBXGroup;
+			children = (
+				EAADF56C2003A267008F51D5 /* ArchitectureFlow */,
+				EAADF5852003A267008F51D5 /* ArchitectureFlowTests */,
+				EAADF56B2003A267008F51D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAADF56B2003A267008F51D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF56A2003A267008F51D5 /* ArchitectureFlow.app */,
+				EAADF5822003A267008F51D5 /* ArchitectureFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAADF56C2003A267008F51D5 /* ArchitectureFlow */ = {
+			isa = PBXGroup;
+			children = (
+				EA98A65F200D11510058639F /* Tracking */,
+				EA98A65C200D10EF0058639F /* UserSession */,
+				EA98A65A200D10C80058639F /* Common */,
+				EA98A656200D10940058639F /* Security */,
+				EA98A64D200D0FA40058639F /* Login */,
+				EAADF56D2003A267008F51D5 /* AppDelegate.h */,
+				EAADF56E2003A267008F51D5 /* AppDelegate.m */,
+				EAADF5732003A267008F51D5 /* Main.storyboard */,
+				EAADF5762003A267008F51D5 /* Assets.xcassets */,
+				EAADF5782003A267008F51D5 /* LaunchScreen.storyboard */,
+				EAADF57B2003A267008F51D5 /* Info.plist */,
+				EAADF57C2003A267008F51D5 /* main.m */,
+			);
+			path = ArchitectureFlow;
+			sourceTree = "<group>";
+		};
+		EAADF5852003A267008F51D5 /* ArchitectureFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAADF5862003A267008F51D5 /* ArchitectureFlowTests.m */,
+				EAADF5882003A267008F51D5 /* Info.plist */,
+			);
+			path = ArchitectureFlowTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAADF5692003A267008F51D5 /* ArchitectureFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAADF58B2003A267008F51D5 /* Build configuration list for PBXNativeTarget "ArchitectureFlow" */;
+			buildPhases = (
+				EAADF5662003A267008F51D5 /* Sources */,
+				EAADF5672003A267008F51D5 /* Frameworks */,
+				EAADF5682003A267008F51D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchitectureFlow;
+			productName = ArchitectureFlow;
+			productReference = EAADF56A2003A267008F51D5 /* ArchitectureFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAADF5812003A267008F51D5 /* ArchitectureFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAADF58E2003A267008F51D5 /* Build configuration list for PBXNativeTarget "ArchitectureFlowTests" */;
+			buildPhases = (
+				EAADF57E2003A267008F51D5 /* Sources */,
+				EAADF57F2003A267008F51D5 /* Frameworks */,
+				EAADF5802003A267008F51D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAADF5842003A267008F51D5 /* PBXTargetDependency */,
+			);
+			name = ArchitectureFlowTests;
+			productName = ArchitectureFlowTests;
+			productReference = EAADF5822003A267008F51D5 /* ArchitectureFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAADF5622003A267008F51D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Skyscanner;
+				TargetAttributes = {
+					EAADF5692003A267008F51D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EAADF5812003A267008F51D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EAADF5692003A267008F51D5;
+					};
+				};
+			};
+			buildConfigurationList = EAADF5652003A267008F51D5 /* Build configuration list for PBXProject "ArchitectureFlow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAADF5612003A267008F51D5;
+			productRefGroup = EAADF56B2003A267008F51D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAADF5692003A267008F51D5 /* ArchitectureFlow */,
+				EAADF5812003A267008F51D5 /* ArchitectureFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAADF5682003A267008F51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADF57A2003A267008F51D5 /* LaunchScreen.storyboard in Resources */,
+				EAADF5772003A267008F51D5 /* Assets.xcassets in Resources */,
+				EAADF5752003A267008F51D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADF5802003A267008F51D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAADF5662003A267008F51D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADF5D32003B9E3008F51D5 /* RemoteUserSessionRepository.m in Sources */,
+				EAADF5932003A2AC008F51D5 /* LoginInteractor.m in Sources */,
+				EAADF5E32003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m in Sources */,
+				EAADF5A72003A341008F51D5 /* Encryption.m in Sources */,
+				EAADF5722003A267008F51D5 /* LoginViewController.m in Sources */,
+				EAADF5BF2003AF98008F51D5 /* UserSessionLoginRequestModel.m in Sources */,
+				EAADF5E72003C840008F51D5 /* LoginPresenter.m in Sources */,
+				EAADF5CF2003B9D5008F51D5 /* LocalUserSessionRepository.m in Sources */,
+				EAADF5AF2003A506008F51D5 /* Promise.m in Sources */,
+				EAADF57D2003A267008F51D5 /* main.m in Sources */,
+				EAADF56F2003A267008F51D5 /* AppDelegate.m in Sources */,
+				EAADF5CB2003B9B6008F51D5 /* ProxyUserSessionRepository.m in Sources */,
+				EAADF5C32003B078008F51D5 /* LoginRequestToUserSessionMapper.m in Sources */,
+				EAADF5A32003A30C008F51D5 /* LoginSuccessResponseModel.m in Sources */,
+				EAADF59B2003A2DF008F51D5 /* LoginRequestModel.m in Sources */,
+				EAADF5BB2003AEC5008F51D5 /* UserSession.m in Sources */,
+				EAADF5DF2003C37A008F51D5 /* RemoteUserSessionMapper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAADF57E2003A267008F51D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADF5A42003A30C008F51D5 /* LoginSuccessResponseModel.m in Sources */,
+				EAADF5CC2003B9B6008F51D5 /* ProxyUserSessionRepository.m in Sources */,
+				EAADF5E02003C37A008F51D5 /* RemoteUserSessionMapper.m in Sources */,
+				EAADF5C42003B078008F51D5 /* LoginRequestToUserSessionMapper.m in Sources */,
+				EAADF59C2003A2DF008F51D5 /* LoginRequestModel.m in Sources */,
+				EAADF5942003A2AC008F51D5 /* LoginInteractor.m in Sources */,
+				EAADF5B02003A506008F51D5 /* Promise.m in Sources */,
+				EAADF5A82003A341008F51D5 /* Encryption.m in Sources */,
+				EAADF5E42003C3A2008F51D5 /* UserSessionLoginRequestToNSURLRequestMapper.m in Sources */,
+				EAADF5872003A267008F51D5 /* ArchitectureFlowTests.m in Sources */,
+				EAADF5BC2003AEC5008F51D5 /* UserSession.m in Sources */,
+				EAADF5D02003B9D5008F51D5 /* LocalUserSessionRepository.m in Sources */,
+				EAADF5E82003C840008F51D5 /* LoginPresenter.m in Sources */,
+				EAADF5D42003B9E3008F51D5 /* RemoteUserSessionRepository.m in Sources */,
+				EAADF5C02003AF98008F51D5 /* UserSessionLoginRequestModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAADF5842003A267008F51D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAADF5692003A267008F51D5 /* ArchitectureFlow */;
+			targetProxy = EAADF5832003A267008F51D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAADF5732003A267008F51D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAADF5742003A267008F51D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAADF5782003A267008F51D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAADF5792003A267008F51D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAADF5892003A267008F51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAADF58A2003A267008F51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAADF58C2003A267008F51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9XKRL39B6;
+				INFOPLIST_FILE = ArchitectureFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.skyscanner.ArchitectureFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAADF58D2003A267008F51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9XKRL39B6;
+				INFOPLIST_FILE = ArchitectureFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.skyscanner.ArchitectureFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAADF58F2003A267008F51D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9XKRL39B6;
+				INFOPLIST_FILE = ArchitectureFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.skyscanner.ArchitectureFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureFlow.app/ArchitectureFlow";
+			};
+			name = Debug;
+		};
+		EAADF5902003A267008F51D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9XKRL39B6;
+				INFOPLIST_FILE = ArchitectureFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.net.skyscanner.ArchitectureFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArchitectureFlow.app/ArchitectureFlow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAADF5652003A267008F51D5 /* Build configuration list for PBXProject "ArchitectureFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADF5892003A267008F51D5 /* Debug */,
+				EAADF58A2003A267008F51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAADF58B2003A267008F51D5 /* Build configuration list for PBXNativeTarget "ArchitectureFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADF58C2003A267008F51D5 /* Debug */,
+				EAADF58D2003A267008F51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAADF58E2003A267008F51D5 /* Build configuration list for PBXNativeTarget "ArchitectureFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAADF58F2003A267008F51D5 /* Debug */,
+				EAADF5902003A267008F51D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAADF5622003A267008F51D5 /* Project object */;
+}
